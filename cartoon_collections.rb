@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(calls)# code an argument here
   # Your code here
-  arr = calls.map { |e| e + "!" }
+  arr = calls.map(&:upcase) { |e| e + "!" }
 end
 
 def long_planeteer_calls# code an argument here
