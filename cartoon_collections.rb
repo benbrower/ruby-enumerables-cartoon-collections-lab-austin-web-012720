@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(calls)# code an argument here
   # Your code here
-  puts calls.map! { |e| e + "!" }
+  arr = .calls.map! { |e| e + "!" }
 end
 
 def long_planeteer_calls# code an argument here
@@ -16,5 +16,6 @@ end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  c
+  heese_types = ["cheddar", "gouda", "camembert"]
 end
